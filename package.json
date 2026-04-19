@@ -8,9 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "test:unit": "vitest",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
-}
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "vue": "^3.4.0"
