@@ -8,9 +8,13 @@ export default defineConfig({
     alias: {
       '@': resolve(__dirname, 'src')
     }
+ 
   },
   test: {
     environment: 'jsdom',
     globals: true,
   }
 })
+export default {
+   base: '/https://github.com/AleRoa2025/login-form-app/', 
+}
